@@ -80,8 +80,8 @@ def split_by_region(countries: list[Country], directory: str):
         write_to_file(value, file_path)
 
 if __name__ == "__main__":
-    input_file = "country_full.csv"
-    output_dir = "regions"
+    input_file = "csv/input/country_full.csv"
+    output_dir = "csv/output"
     
     print(f"Reading countries from {input_file}...")
     countries = read_countries(input_file)
